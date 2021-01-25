@@ -1,18 +1,15 @@
 import React, { Component } from "react";
 import {
-  Tabs,
-  Tab,
-  Grid,
-  Cell,
+ 
   Card,
   CardTitle,
   CardText,
   CardActions,
-  Button,
-  CardMenu,
-  IconButton,
+  Button
+ 
 } from "react-mdl";
-import edb from "../images/gifs/burger.gif";
+import weather from "../images/gifs/weathergif.gif"
+import burger from "../images/gifs/burger.gif";
 import ed from "../images/gifs/employeeD.gif";
 import demo from "../images/gifs/budgetTracker.gif";
 import recipeApp from "../images/gifs/recipeApp.gif";
@@ -36,7 +33,7 @@ class Projects extends Component {
               Eat-Da-Burgaaah
             </CardTitle>
             <img
-              src={edb}
+              src={burger}
               style={{ height: "250px", margin: "0px auto" }}
               alt="Eat-Da-Burgaaah gif"
             />
@@ -234,23 +231,19 @@ class Projects extends Component {
                 justifyContent: "center",
               }}
             >
-              Recipe App
+              Weather Dashboard
             </CardTitle>
             <img
-              src={recipeApp}
+              src={weather}
               style={{ height: "250px", margin: "0px auto" }}
-              alt="Budget Tracker gif"
+              alt="Weather Dashboard gif"
             />
             <CardText>
-              Most of us have at one point and time had a recipe for something
-              that was scribbled down on whatever was handy and within arms
-              reach at that time. We wanted somewhere safe to input that recipe
-              to avoid wasting time searching for it, deciphering it, and trying
-              to replicate it for ourselves.
+            Weather Dashboard is a great resource to help out when your traveling or just want to know how to take on the rest of your week. Whether you need to grab your coat and bundle up or are good to go in a t-shirt, the True Weather Dashboard has the information you need!
             </CardText>
             <CardActions className="card-buttons" border>
               <a
-                href="https://github.com/brandt-fricker/recipeapps"
+                href="https://github.com/brandt-fricker/True_Weather_Dashboard"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -258,7 +251,7 @@ class Projects extends Component {
               </a>
 
               <a
-                href="https://zw16recipeapp.herokuapp.com/"
+                href="https://brandt-fricker.github.io/True_Weather_Dashboard/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -267,7 +260,8 @@ class Projects extends Component {
             </CardActions>
           </Card>
         </div>
-      </div>
+        </div>
+      
     );
   }
 }
