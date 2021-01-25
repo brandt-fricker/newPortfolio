@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bulma": "^0.8.2",
     "react": "^16.2.0",
+    "react-bulma-components": "^3.4.0",
     "react-dom": "^16.2.0",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^4.2.2",

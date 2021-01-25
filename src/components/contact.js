@@ -1,22 +1,14 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-import img from "../images/headshot.jpg"
+import klakring from "../images/ussklakring.jpg"
+import crest from "../images/crest.png"
 
 class Contact extends Component {
   render() {
     return(
       <div className="contact-body">
         <Grid className="contact-grid">
-          <Cell col={6}>
-            <h2>Brandt Fricker</h2>
-            <img
-              src={img}
-              alt="avatar"
-              style={{height: '250px'}}
-               />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-
-          </Cell>
+         
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr/>
@@ -26,34 +18,52 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (123) 456-7890
-                  </ListItemContent>
-                </ListItem>
-
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-fax" aria-hidden="true"/>
-                    (123) 456-7890
+                    (480) 544-4443
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                    someone@example.com
+                frickerbrandt@gmail.com
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-skype" aria-hidden="true"/>
-                    MySkypeID
+                    <i className="fa fa-github" aria-hidden="true"/>
+                    github.com/brandt-fricker
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                    <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                    linkedin.com/in/brandtfricker123/
                   </ListItemContent>
                 </ListItem>
 
 
               </List>
             </div>
+          </Cell>
+          <Cell col={6}>
+            <h2>Brandt Fricker</h2>
+            
+            <img className="boat"
+              src={klakring}
+              alt="FFG-42 USS KLAKRING"
+              style={{height: '250px'}}
+              
+               />
+               <hr style={{borderStyle: "hidden"}}/>
+               <img className="boat"
+              src={crest}
+              alt="FFG-42 USS KLAKRING CREST"
+              style={{height: '250px'}}
+               />
+           
+
           </Cell>
         </Grid>
       </div>
