@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import edb from "../images/eatDaBurgaaah.gif";
+import edb from "../images/e.gif";
 import ed from "../images/employeeDirectory.gif"
 import demo from "../images/budgetTracker.gif";
 import recipeApp from "../images/recipeApp.gif"
