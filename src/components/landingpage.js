@@ -36,14 +36,16 @@ class Landing extends Component {
           </a>
 
           {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+          <a href="https://en.wikipedia.org/wiki/USS_Klakring" rel="noopener noreferrer" target="_blank">
+          <i className="fa fa-ship" aria-hidden="true"></i>
           </a>
 
           {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-          <svg class="icon icon-KSAZ-university-of-arizona-uofa-1"><use xlinkHref="#icon-KSAZ-university-of-arizona-uofa-1"></use></svg>
+          <a href="https://www.navy.com/joining-the-navy" rel="noopener noreferrer" target="_blank">
+          <i className="fa fa-anchor" aria-hidden="true"></i>
           </a>
+
+         
 
         </div>
             </div>

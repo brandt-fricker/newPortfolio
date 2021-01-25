@@ -13,9 +13,10 @@ class Projects extends Component {
 
     render(){
       return(
+      <div>
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card col={4} shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#000000', height: '176px'}}>Eat-Da-Burgaaah</CardTitle>
             <img src={edb}
             style={{height: '250px'}}/>
@@ -27,72 +28,87 @@ class Projects extends Component {
               <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
-          {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+        
+          <Card col={4} shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000000', height: '176px'}}>Eat-Da-Burgaaah</CardTitle>
+            <img src={edb}
+            style={{height: '250px'}}/>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            Eat-Da-Burgaaah is a restaurant app that lets users input the names of burgers they'd like to eat.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
               <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
-
-          {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            <Card col={4} shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000000', height: '176px'}}>Eat-Da-Burgaaah</CardTitle>
+            <img src={edb}
+            style={{height: '250px'}}/>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            Eat-Da-Burgaaah is a restaurant app that lets users input the names of burgers they'd like to eat.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              {/* <Button colored>CodePen</Button> */}
+              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
+          </Card>
+        </div>
+        <div className="projects-grid">
+            <Card col={4} shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000000', height: '176px'}}>Eat-Da-Burgaaah</CardTitle>
+            <img src={edb}
+            style={{height: '250px'}}/>
+            <CardText>
+            Eat-Da-Burgaaah is a restaurant app that lets users input the names of burgers they'd like to eat.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+          <Card col={4} shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000000', height: '176px'}}>Eat-Da-Burgaaah</CardTitle>
+            <img src={edb}
+            style={{height: '250px'}}/>
+            <CardText>
+            Eat-Da-Burgaaah is a restaurant app that lets users input the names of burgers they'd like to eat.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+          <Card col={4} shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000000', height: '176px'}}>Eat-Da-Burgaaah</CardTitle>
+            <img src={edb}
+            style={{height: '250px'}}/>
+            <CardText>
+            Eat-Da-Burgaaah is a restaurant app that lets users input the names of burgers they'd like to eat.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
           </Card>
         </div>
 
-
+</div>
       )
+      
    
   }
 
 
 
-  // render() {
-  //   return(
-  //     <div>
-  //       <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-  //         <Tab>React</Tab>
-          
-          
-          
-  //       </Tabs>
-
-
-  //         <Grid>
-  //           <Cell col={12}>
-  //             <div className="content">{this.toggleCategories()}</div>
-  //           </Cell>
-  //         </Grid>
-
-
-  //     </div>
-  //   )
   }
-// }
+
 
 export default Projects;
