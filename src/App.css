@@ -20,7 +20,18 @@
 
 .projects-grid {
   display: flex;
+  padding-top: 2%;
+  padding-bottom:2%;
+  
 }
+.card-buttons  {
+  text-align: center; 
+  
+  
+}
+
+
+
 
 /* Resume Page css */
 .resume-right-col {
