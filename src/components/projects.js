@@ -46,7 +46,7 @@ class Projects extends Component {
           >
             <CardTitle style={{color: '#000000', height: 'auto', justifyContent: 'center'}}>Employee Directory</CardTitle>
             <img src={ed}
-            style={{height: '250px',margin: "0px auto", border: '5px solid white'}}
+            style={{height: '250px',margin: "0px auto"}}
             alt="Employee Directory gif"/>
             <CardText>
            Employee Directory is an application that gives the user the ability to view a table rendered with their employees and their contact information.
@@ -86,7 +86,7 @@ class Projects extends Component {
             <CardTitle style={{color: '#000000', height: 'auto', justifyContent: 'center'}}>Work Day Scheduler</CardTitle>
             <img src={Calgif}
             style={{height: '250px',margin: "0px auto"}}
-            alt="Budget Tracker gif"/>
+            alt="Work Day Scheduler gif"/>
             <CardText>
             Always running around like a chicken with your head cut off, unsure of what plan or event is next in your busy day? Fortunately the Work Day Scheduler is here to help get your head back on and add some clarity for you.
             </CardText>
