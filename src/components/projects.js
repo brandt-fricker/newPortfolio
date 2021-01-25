@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import edb from "../images/eatDaBurgaaah.gif";
+import '../App.css';
 
 
 class Projects extends Component {
@@ -25,10 +26,11 @@ class Projects extends Component {
             <CardText>
             Eat-Da-Burgaaah is a restaurant app that lets users input the names of burgers they'd like to eat.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
+            <CardActions className="card-buttons"border>
+            <a href="#/" target="_blank"><Button colored>GitHub</Button></a>
               
-              <Button colored>Live Demo</Button>
+              <a href="#/" target="_blank"><Button colored>Live Demo
+              </Button></a>
             </CardActions>
           </Card>
 
@@ -42,10 +44,11 @@ class Projects extends Component {
             <CardText>
             Eat-Da-Burgaaah is a restaurant app that lets users input the names of burgers they'd like to eat.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-             
-              <Button colored>Live Demo</Button>
+            <CardActions className="card-buttons"border>
+            <a href="#/" target="_blank"><Button colored>GitHub</Button></a>
+              
+              <a href="#/" target="_blank"><Button colored>Live Demo
+              </Button></a>
             </CardActions>
           </Card>
             <Card col={4} shadow={5} 
@@ -57,10 +60,11 @@ class Projects extends Component {
             <CardText>
             Eat-Da-Burgaaah is a restaurant app that lets users input the names of burgers they'd like to eat.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
+            <CardActions className="card-buttons"border>
+            <a href="#/" target="_blank"><Button colored>GitHub</Button></a>
               
-              <Button colored>Live Demo</Button>
+              <a href="#/" target="_blank"><Button colored>Live Demo
+              </Button></a>
             </CardActions>
           </Card>
         </div>
