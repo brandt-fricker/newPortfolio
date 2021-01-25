@@ -16,34 +16,55 @@ class Projects extends Component {
       <div>
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card col={4} shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#000000', height: '176px'}}>Eat-Da-Burgaaah</CardTitle>
+          <Card col={4} shadow={5} 
+          style={{minWidth: 'auto', margin: 'auto'}}
+          >
+            <CardTitle style={{color: '#000000', height: 'auto', justifyContent: 'center'}}>Eat-Da-Burgaaah</CardTitle>
             <img src={edb}
-            style={{height: '250px'}}/>
+            style={{height: '250px',margin: "0px auto"}}/>
             <CardText>
             Eat-Da-Burgaaah is a restaurant app that lets users input the names of burgers they'd like to eat.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
+              
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
 
         
-          <Card col={4} shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#000000', height: '176px'}}>Eat-Da-Burgaaah</CardTitle>
+          <Card col={4} shadow={5} 
+          style={{minWidth: '450', margin: 'auto'}}
+          >
+            <CardTitle style={{color: '#000000', height: 'auto', justifyContent: 'center'}}>Eat-Da-Burgaaah</CardTitle>
             <img src={edb}
-            style={{height: '250px'}}/>
+            style={{height: '250px',margin: "0px auto"}}/>
             <CardText>
             Eat-Da-Burgaaah is a restaurant app that lets users input the names of burgers they'd like to eat.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
+             
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
+            <Card col={4} shadow={5} 
+            style={{minWidth: '450', margin: 'auto'}}
+            >
+            <CardTitle style={{color: '#000000', height: 'auto', justifyContent: 'center'}}>Eat-Da-Burgaaah</CardTitle>
+            <img src={edb}
+            style={{height: '250px',margin: "0px auto"}}/>
+            <CardText>
+            Eat-Da-Burgaaah is a restaurant app that lets users input the names of burgers they'd like to eat.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+        </div>
+        {/* <div className="projects-grid">
             <Card col={4} shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#000000', height: '176px'}}>Eat-Da-Burgaaah</CardTitle>
             <img src={edb}
@@ -57,21 +78,6 @@ class Projects extends Component {
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
-        </div>
-        <div className="projects-grid">
-            <Card col={4} shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#000000', height: '176px'}}>Eat-Da-Burgaaah</CardTitle>
-            <img src={edb}
-            style={{height: '250px'}}/>
-            <CardText>
-            Eat-Da-Burgaaah is a restaurant app that lets users input the names of burgers they'd like to eat.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-          </Card>
           <Card col={4} shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#000000', height: '176px'}}>Eat-Da-Burgaaah</CardTitle>
             <img src={edb}
@@ -98,7 +104,7 @@ class Projects extends Component {
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
-        </div>
+        </div> */}
 
 </div>
       )
