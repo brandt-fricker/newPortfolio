@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import ciws from "../images/ciws.jpg"
+
 
 
 class Landing extends Component {
@@ -9,7 +11,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+              src={ciws}
               alt="avatar"
               className="avatar-img"
               />
@@ -40,7 +42,7 @@ class Landing extends Component {
 
           {/* Youtube */}
           <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
+          <svg class="icon icon-KSAZ-university-of-arizona-uofa-1"><use xlinkHref="#icon-KSAZ-university-of-arizona-uofa-1"></use></svg>
           </a>
 
         </div>
