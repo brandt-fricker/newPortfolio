@@ -25,21 +25,30 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                frickerbrandt@gmail.com
+                <a href="mailto:frickerbrandt@gmail.com">frickerbrandt@gmail.com</a>
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-github" aria-hidden="true"/>
-                    github.com/brandt-fricker
+                    <a href="https://github.com/brandt-fricker">github.com/brandt-fricker</a>
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
-                    linkedin.com/in/brandtfricker123/
+                    <a href="https://www.linkedin.com/in/brandtfricker123/">linkedin.com/in/brandtfricker123/</a>
+                  </ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                    <i className="fa fa-file-text" aria-hidden="true"/>
+                    <a
+              href="https://docs.google.com/document/d/1rV32ngNddpru3O2s5ckqvybFHCBEnDdVAKF9o5tnWEo/edit?usp=sharing"
+              >Download or view my resume (pdf)</a>
+            
                   </ListItemContent>
                 </ListItem>
 
