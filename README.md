@@ -15,7 +15,7 @@ My Portfolio
 
 ### Demo
 
-![Demo](images/empD.gif)
+![Demo](../newPortfolio/src/images/gifs/portfolio.gif)
 
 [View My Profile](https://radiant-scrubland-01965.herokuapp.com/) Live on Heroku
 
