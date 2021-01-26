@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import ciws from "../images/ciws.jpg"
 
-
-
 class Landing extends Component {
   render() {
     return(
@@ -15,13 +13,11 @@ class Landing extends Component {
               alt="avatar"
               className="avatar-img"
               />
-
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
+              <hr/>
 
-            <hr/>
-
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+          <p>HTML/CSS | Bootstrap | JavaScript | React | Material-UI | NodeJS | Express | MongoDB</p>
 
         <div className="social-links">
 
@@ -44,9 +40,6 @@ class Landing extends Component {
           <a href="https://www.navy.com/joining-the-navy" rel="noopener noreferrer" target="_blank">
           <i className="fa fa-anchor" aria-hidden="true"></i>
           </a>
-
-         
-
         </div>
             </div>
           </Cell>
