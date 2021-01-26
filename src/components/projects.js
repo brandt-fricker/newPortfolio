@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import {
- 
   Card,
   CardTitle,
   CardText,
   CardActions,
   Button
- 
-} from "react-mdl";
+ } from "react-mdl";
 import weather from "../images/gifs/weathergif.gif"
 import burger from "../images/gifs/burger.gif";
 import ed from "../images/gifs/employeeD.gif";
@@ -22,7 +20,7 @@ class Projects extends Component {
       <div>
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card col={4} shadow={5} style={{ minWidth: "auto", margin: "auto" }}>
+          <Card className='card' col={4} shadow={5} style={{ minWidth: "auto", margin: "auto"}}>
             <CardTitle
               style={{
                 color: "#000000",
@@ -61,7 +59,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 2 */}
-          <Card col={4} shadow={5} style={{ minWidth: "auto", margin: "auto" }}>
+          <Card className='card' col={4} shadow={5} style={{ minWidth: "auto", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#000000",
@@ -101,7 +99,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          <Card col={4} shadow={5} style={{ minWidth: "auto", margin: "auto" }}>
+          <Card className='card' col={4} shadow={5} style={{ minWidth: "auto", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#000000",
@@ -142,7 +140,7 @@ class Projects extends Component {
         </div>
         <div className="projects-grid">
           {/* Project 4 */}
-          <Card col={4} shadow={5} style={{ minWidth: "auto", margin: "auto" }}>
+          <Card className='card' col={4} shadow={5} style={{ minWidth: "auto", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#000000",
@@ -182,7 +180,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
           {/* Project 5 */}
-          <Card col={4} shadow={5} style={{ minWidth: "auto", margin: "auto" }}>
+          <Card className='card' col={4} shadow={5} style={{ minWidth: "auto", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#000000",
@@ -223,7 +221,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
           {/* Project 6 */}
-          <Card col={4} shadow={5} style={{ minWidth: "auto", margin: "auto" }}>
+          <Card  className='card' col={4} shadow={5} style={{ minWidth: "auto", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#000000",

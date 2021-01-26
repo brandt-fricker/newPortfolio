@@ -4,8 +4,11 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "bootstrap": "^4.6.0",
     "bulma": "^0.8.2",
     "react": "^16.2.0",
+    "react-bootstrap": "^1.4.3",
     "react-bulma-components": "^3.4.0",
     "react-dom": "^16.2.0",
     "react-mdl": "^1.11.0",
