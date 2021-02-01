@@ -41,7 +41,7 @@ class Contact extends Component {
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-file-text" aria-hidden="true"/>
                     <a
-              href="https://docs.google.com/document/d/1rV32ngNddpru3O2s5ckqvybFHCBEnDdVAKF9o5tnWEo/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1wcsHRViiuDJQLq-PDG-bXP-s2qT2CQTLxizxDj3mZaE/edit?usp=sharing"
               >Download or view my resume (pdf)</a>
                   </ListItemContent>
                 </ListItem>
