@@ -171,7 +171,7 @@ class Projects extends Component {
               </a>
 
               <a
-                href="https://afternoon-lake-46261.herokuapp.com/"
+                href="https://brandt-fricker.github.io/Simp-Calendar/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
